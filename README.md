@@ -12,7 +12,7 @@ It is divided into 2 parts.
 	- For Thuiswinkel, it simply visits differents pages sorted by alphabetical orders and reads them.
 
 
-- Web Parsers
+- Web Parser: 
 	The schema_dot_org folder consists of a webscraper that visits each one of these URLs to look for the presence of a the string "schema.org/Product".
 	From the landing page, it will visit roam randomly through the website and check if the string appears.
 	It will then write the results into a txt and JSON files.
