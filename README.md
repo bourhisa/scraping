@@ -10,7 +10,7 @@ It is divided into 2 parts.
 	- For Alexa (giant web index & property of AWS), a recursive function enables to retrace the website's page hierarchy and access all of the pages. It is adaptable for any resource available on Alexa.
 	- For Thuiswinkel, it simply visits differents pages sorted by alphabetical orders and reads them.
 
-- Web Parser: 
+- Web Spider: 
 	The "schema_dot_org/" folder consists of a webscraper that visits each one of these URLs to look for the presence of a string (here: "schema.org/Product").
 	From the landing page, it will list all the links to visit, roam randomly through the website and so on, until a breakpoint: either the result is null (the website never uses the string) or the string has been found in one of the pages.
 	It will then write the results into a txt and JSON files.
